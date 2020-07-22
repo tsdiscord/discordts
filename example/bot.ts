@@ -79,7 +79,7 @@ import {
             await msg.reply(`Client name: ${client.user.name}`);
             continue;
           }
-          if (msg.content === "!cordeno") {
+          if (msg.content === "!Discord.TS") {
             await msg.reply(`Discord.TS version: v${client.version}`);
           }
         }
@@ -87,4 +87,3 @@ import {
       }
     }
   }
-  
